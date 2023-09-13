@@ -1,3 +1,63 @@
+.prev{
+  font-size:3vw;
+  padding:0px;
+  text-align: center;
+  /* font-weight:100px; */
+  position:sticky;
+  top:85vh;
+  width:5vw;
+  height:5vw;
+  border-radius: 50%;
+  left:4vw;
+}
+.next{
+  font-size:3vw;
+  padding:0px;
+  text-align: center;
+  /* font-weight:100px; */
+  position:sticky;
+  top:85vh;
+  width:5vw;
+  height:5vw;
+  border-radius: 50%;
+  left:91vw;
+}
+.load{
+  position:sticky;
+  top:20px;
+  left:47vw;
+}
+.button{
+  margin:10px;
+  background-color: antiquewhite;
+  border-radius: 30%;
+  padding:7px;
+  
+}
+.heading{
+  font-size: larger;
+  margin-right: 10px;
+  background-color: antiquewhite;
+}
+.cover{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  
+}
+
+.navbar{
+  width:100%;
+  position: fixed;
+  z-index: 1;
+  /* background-color: rgb(187, 114, 83); */
+}
+.center{
+  display: flex;
+  height:90vh;
+  align-items: center;
+  justify-content: space-around;
+}
 .App {
   text-align: center;
 }
